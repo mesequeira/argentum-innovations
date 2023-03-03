@@ -1,5 +1,8 @@
 import { Image } from 'react-bootstrap'
 import './layout-body-about-us-styles.css'
+import peopleDesk2 from '../../../../assets/img/people-desk-2.png'
+import orangeDots from '../../../../assets/img/orange-dots.png'
+import purpleDots from '../../../../assets/img/purple-dots.png'
 
 const AboutUs = () => {
   return (
@@ -9,9 +12,9 @@ const AboutUs = () => {
 
       <div className='d-flex our-team-container'>
         <div className='images-container'>
-          <Image src='src/assets/img/people-desk-2.png' />
-          <Image src='src/assets/img/orange-dots.png' className='orange-dots' />
-          <Image src='src/assets/img/purple-dots.png' className='purple-dots' />
+          <Image src={peopleDesk2} />
+          <Image src={orangeDots} className='orange-dots' />
+          <Image src={purpleDots} className='purple-dots' />
         </div>
         <div className='our-team-text'>
           <p>Tenemos una amplia gama de profesionales capaces de cubrir las diversas etapas por la que puede atravesar un desarrollo. Se destaca nuestro entendimiento del negocio de nuestros clientes, con el objetivo de construir la aplicación más eficiente a medida. </p>

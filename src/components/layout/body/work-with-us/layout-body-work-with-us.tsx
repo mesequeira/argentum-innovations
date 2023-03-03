@@ -1,6 +1,7 @@
 import './layout-body-work-with-us-styles.css'
 import React from 'react'
 import { Image } from 'react-bootstrap'
+import groupPeole from '../../../../assets/img/people-group.png'
 
 const WorkWithUs = () => {
     return (
@@ -14,7 +15,7 @@ const WorkWithUs = () => {
                 <button className="btn btn-comenzar m-auto mt-4 mb-4">Comencemos</button>
             </div>
             <div>
-                <Image src='src/assets/img/people-group.png'/>
+                <Image src={groupPeole}/>
             </div>
         </div>
     )
