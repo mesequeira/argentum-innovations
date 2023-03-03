@@ -1,0 +1,11 @@
+body{
+    font-family: 'Quicksand', sans-serif !important;
+}
+
+body p {
+    margin: 0;
+}
+
+.color-primary{
+    color: #040940;
+}

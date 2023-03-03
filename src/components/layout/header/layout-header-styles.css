@@ -1,0 +1,8 @@
+.nav-logo-size{
+    font-size: 18px;
+}
+
+.nav-link:hover{
+    color: #130024 !important;
+    transition: .2s linear;
+}

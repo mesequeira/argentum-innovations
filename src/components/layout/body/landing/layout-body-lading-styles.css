@@ -1,0 +1,90 @@
+.title-size {
+    font-size: 55px;
+}
+
+.body-container {
+    margin-top: 3rem;
+}
+
+.btn-saber-mas {
+    background-color: #377DFF !important;
+    padding: 8px 50px !important;
+    box-shadow: 0px 4px 8px rgba(55, 125, 255, 0.5);
+    border-radius: 24px !important;
+    width: 195px;
+    font-style: normal;
+    font-weight: 500 !important;
+    color: #FFFFFF !important;
+}
+
+.circle-container-margin {
+    margin-left: 11rem;
+}
+
+.circle {
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    margin: 0 7px;
+}
+
+.blues {
+    background-color: #377DFF;
+}
+
+.reds {
+    background-color: #F62424;
+}
+
+.circle:nth-of-type(1) {
+    left: 10px;
+}
+
+.circle:nth-of-type(2) {
+    right: 10px;
+}
+
+.circle:nth-of-type(3) {
+    left: 40px;
+}
+
+.circle:nth-of-type(4) {
+    right: 40px;
+}
+
+.semi-circle {
+    width: 15px;
+    height: 25px;
+    border-radius: 50px 0 0 50px;
+    background: linear-gradient(to left, #FF8E8E, #F62424);
+    position: absolute;
+    top: 20%;
+    right: 0;
+}
+
+.circle-red { 
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    background: linear-gradient(to left, #FF8E8E, #F62424);
+    position: absolute;
+    top: 70%;
+}
+
+.circle-blue { 
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    background: linear-gradient(to left, #4485FF, #377DFF);
+    position: absolute;
+}
+
+.circle-blue-first {
+    top: 35%;
+    left: 10%
+}
+
+.circle-blue-second{
+    right: 15%;
+    top: 50%;
+}
