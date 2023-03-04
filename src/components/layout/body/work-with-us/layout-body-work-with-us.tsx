@@ -5,19 +5,19 @@ import groupPeole from '../../../../assets/img/people-group.png'
 
 const WorkWithUs = () => {
     return (
-        <div className='container d-flex justify-content-around align-items-center work-with-us mb-5'>
+        <section id='work-with-us'>
+            <div className='container work-with-us-container align-items-center mb-5'>
             <div>
                 <p className='fw-bold work-with-us-title'>Interesado en</p>
                 <p className='fw-bold work-with-us-title'>Trabajar con</p>
                 <p className='fw-bold work-with-us-title'>Nosotros?</p>
                 <p className='text-muted fs-5'>Te ayudamos a cumplir los objetivos </p>
                 <p className='text-muted fs-5'>de tu empresa</p>
-                <button className="btn btn-comenzar m-auto mt-4 mb-4">Comencemos</button>
+                <a href="mailto:info@argentuminnovations.com" className="btn btn-comenzar">Contacto</a>
             </div>
-            <div>
-                <Image src={groupPeole}/>
-            </div>
+            <Image src={groupPeole} />
         </div>
+        </section>
     )
 }
 

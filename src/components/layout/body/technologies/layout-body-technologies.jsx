@@ -16,31 +16,74 @@ import sqlServer from '../../../../assets/img/techs/sql-server.png'
 
 const Technologies = () => {
     return (
-        <div className='container d-grid mt-5'>
-            <p className='m-auto technologies mb-3'>Tecnologías con las que trabajamos</p>
-            <p className='m-auto technologies-title'>Seguimos las tendencias</p>
-            <p className='m-auto technologies-title mb-4'>del mercado</p>
-            <div className='d-grid'>
-                <div className='d-flex justify-content-between w-100 m-auto align-items-end mt-5 mb-3'>
-                    <Image src={bootstrap}/>
-                    <Image src={docker}/>
-                    <Image src={java}/>
-                    <Image src={materialDesign} />
-                </div>
+        <section id='technologies'>
+            <div className='container d-grid mt-5'>
+                <p className='m-auto technologies mb-3'>Tecnologías con las que trabajamos</p>
+                <p className='m-auto technologies-title'>Seguimos las tendencias</p>
+                <p className='m-auto technologies-title'>del mercado</p>
+                <div className='row justify-content-center align-items-center'>
+                    <div className='col-lg-3 col-md-3 col-sm-4 col-6'>
+                        <div className='mx-auto mb-15 mw-270 h-120 d-flex justify-content-center align-items-center radius10 block'>
+                            <Image className='img-fluid' src={bootstrap} />
+                        </div>
+                    </div>
 
-                <div className='d-flex justify-content-around w-100 m-auto align-items-end mt-5 mb-3'>
-                    <Image src={microsoftNet} />
-                    <Image src={mySql} />
-                    <Image src={oracle}/>
-                    <Image src={react}/>
-                </div>
+                    <div className='col-lg-3 col-md-3 col-sm-4 col-6'>
+                        <div className='mx-auto mb-15 mw-270 h-120 d-flex justify-content-center align-items-center radius10 block'>
+                            <Image className='img-fluid' src={docker} />
+                        </div>
+                    </div>
 
-                <div className='d-flex justify-content-around w-100 m-auto align-items-end mt-5'>
-                    <Image src={spring}/>
-                    <Image src={sqlServer} />
+                    <div className='col-lg-3 col-md-3 col-sm-4 col-6'>
+                        <div className='mx-auto mb-15 mw-270 h-120 d-flex justify-content-center align-items-center radius10 block'>
+                            <Image className='img-fluid' src={java} />
+                        </div>
+                    </div>
+
+                    <div className='col-lg-3 col-md-3 col-sm-4 col-6'>
+                        <div className='mx-auto mb-15 mw-270 h-120 d-flex justify-content-center align-items-center radius10 block'>
+                            <Image className='img-fluid' src={materialDesign} />
+                        </div>
+                    </div>
+
+                    <div className='col-lg-3 col-md-3 col-sm-4 col-6'>
+                        <div className='mx-auto mb-15 mw-270 h-120 d-flex justify-content-center align-items-center radius10 block'>
+                            <Image src={microsoftNet} />
+                        </div>
+                    </div>
+
+                    <div className='col-lg-3 col-md-3 col-sm-4 col-6'>
+                        <div className='mx-auto mb-15 mw-270 h-120 d-flex justify-content-center align-items-center radius10 block'>
+                            <Image src={mySql} />
+                        </div>
+                    </div>
+
+                    <div className='col-lg-3 col-md-3 col-sm-4 col-6'>
+                        <div className='mx-auto mb-15 mw-270 h-120 d-flex justify-content-center align-items-center radius10 block'>
+                            <Image src={oracle} />
+                        </div>
+                    </div>
+
+                    <div className='col-lg-3 col-md-3 col-sm-4 col-6'>
+                        <div className='mx-auto mb-15 mw-270 h-120 d-flex justify-content-center align-items-center radius10 block'>
+                            <Image src={react} />
+                        </div>
+                    </div>
+
+                    <div className='col-lg-3 col-md-3 col-sm-4 col-6'>
+                        <div className='mx-auto mb-15 mw-270 h-120 d-flex justify-content-center align-items-center radius10 block'>
+                            <Image src={spring} />
+                        </div>
+                    </div>
+
+                    <div className='col-lg-3 col-md-3 col-sm-4 col-6'>
+                        <div className='mx-auto mb-15 mw-270 h-120 d-flex justify-content-center align-items-center radius10 block'>
+                            <Image src={sqlServer} />
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

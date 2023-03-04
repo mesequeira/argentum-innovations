@@ -1,4 +1,5 @@
 .services-container{
+    display: flex;
     margin-top: 7rem;
 }
 
@@ -33,11 +34,26 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.1);
     border-radius: 30px;
-    margin: 15px 50px;
+    margin: 5px;
 }
 
 .box-service img{
     margin: auto;
     display: flex;
     justify-content: center;
+}
+
+.services-text{
+    max-width: 95%;
+}
+
+@media (max-width: 768px) {
+    .services-container{
+        display: grid !important;
+    }
+
+    .services-text-container{
+        text-align: center;
+        margin: auto;
+    }
 }

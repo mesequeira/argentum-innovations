@@ -3,16 +3,37 @@
     padding: 12px 50px !important;
     box-shadow: 0px 4px 8px rgba(55, 125, 255, 0.5);
     border-radius: 24px !important;
-    width: 195px;
+    width: auto;
     font-style: normal;
     font-weight: 500 !important;
     color: #FFFFFF !important;
+    margin: 1rem 0;
 }
 
-.work-with-us{
-    margin-top: 7rem;
+.btn-comenzar:hover{
+    transition: all .5s ease-out;
+    background-color: #0059ff !important;
+    transform: scale(1.02);
 }
 
 .work-with-us-title{
     font-size: 4rem;
+}
+
+.work-with-us-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 999px) {
+    .work-with-us-container{
+        display: grid;
+        justify-content: center;
+        margin: auto;
+        text-align: center;
+    }
+
+    .btn-comenzar{
+        margin-bottom: 3rem;
+    }
 }

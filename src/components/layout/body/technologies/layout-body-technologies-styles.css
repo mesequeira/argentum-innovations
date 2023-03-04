@@ -13,3 +13,20 @@
     letter-spacing: 0.003em;
     color: #1D1D1D;
 }
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+.mw-270{
+    max-width: 270px;
+}
+
+.h-120{
+    height: 120px;
+}
+
+.mb-15{
+    margin-bottom: 15px;
+}
