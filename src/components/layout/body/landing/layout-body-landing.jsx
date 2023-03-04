@@ -32,7 +32,7 @@ const Landing = () => {
               <div className="circle blues"></div>
             </div>
             <Fade bottom>
-              <Image className="m-auto d-flex justify-content-center" src={peopleDesk} alt="People in desk" />
+              <Image className="m-auto d-flex justify-content-center img-fluid" src={peopleDesk} alt="People in desk" />
             </Fade>
 
             <div className="circle-red"></div>

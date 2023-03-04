@@ -20,14 +20,14 @@ const Services = () => {
                 </div>
 
                 <div className='d-grid col-md-6'>
-                    <div className='d-flex justify-content-between'>
+                    <div className='d-flex justify-content-between m-auto'>
                         <div className='box-service' >
-                            <Image roundedCircle src={monitor} className='w-25 mt-3' />
+                            <Image roundedCircle src={monitor} className='w-25 mt-3 img-fluid' />
                             <p className='m-auto mt-4 fw-bold fs-5 text-center'>Desarrollo de Software</p>
                         </div>
 
                         <div className='box-service'>
-                            <Image roundedCircle src={settings} className='w-25 mt-3' />
+                            <Image roundedCircle src={settings} className='w-25 mt-3 img-fluid' />
                             <p className='m-auto mt-4 fw-bold fs-5 text-center'>Integración de</p>
                             <p className='m-auto fw-bold fs-5 text-center'> APIs</p>
                         </div>
@@ -35,12 +35,12 @@ const Services = () => {
 
                     <div className='d-flex justify-content-between'>
                         <div className='box-service' >
-                            <Image roundedCircle src={design} className='w-25 mt-3' />
+                            <Image roundedCircle src={design} className='w-25 mt-3 img-fluid' />
                             <p className='m-auto mt-4 fw-bold fs-5 text-center'>Diseño</p>
                         </div>
 
                         <div className='box-service'>
-                            <Image roundedCircle src={marketing} className='w-25 mt-3' />
+                            <Image roundedCircle src={marketing} className='w-25 mt-3 img-fluid' />
                             <p className='m-auto mt-4 fw-bold fs-5 text-center'>Publicidad</p>
                         </div>
                     </div>
