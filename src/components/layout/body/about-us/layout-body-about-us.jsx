@@ -6,8 +6,8 @@ const AboutUs = () => {
   return (
     <section id='about-us'>
       <div className='w-75 d-grid justify-content-center m-auto align-items-center'>
-        <p className='m-auto about-us mb-2'>Sobre nosotros</p>
-        <p className='m-auto our-team mb-5'>Nuestro equipo</p>
+        <p className='m-auto about-us mb-2 text-center'>Sobre nosotros</p>
+        <p className='m-auto our-team mb-5 text-center'>Nuestro equipo</p>
 
         <div className='our-team-container'>
           <Image className='img-fluid' src={peopleDesk2} />

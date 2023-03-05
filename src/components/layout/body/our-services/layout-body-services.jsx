@@ -19,30 +19,31 @@ const Services = () => {
                     <p className='text-muted services-text mt-3'>Nuestro objetivo es siempre proporcionar soluciones de alta calidad que no solo cumplan con las expectativas de nuestros clientes, sino que también los ayuden a mejorar su presencia en línea y a aumentar su eficiencia y productividad.</p>
                 </div>
 
-                <div className='d-grid col-md-6'>
-                    <div className='d-flex justify-content-between m-auto'>
-                        <div className='box-service' >
-                            <Image roundedCircle src={monitor} className='w-25 mt-3 img-fluid' />
-                            <p className='m-auto mt-4 fw-bold fs-5 text-center'>Desarrollo de Software</p>
+                <div className='d-flex col-md-6'>
+                    <div className='container overflow-hidden'>
+                        <div className='row gy-5 justify-content-center'>
+                            <div className='box-service col-md-3 p-2' >
+                                <Image roundedCircle src={monitor} className='w-25 mt-3' />
+                                <p className='m-auto mt-4 fw-bold fs-5 text-center'>Desarrollo de Software</p>
+                            </div>
+
+                            <div className='box-service col-md-3 p-2'>
+                                <Image roundedCircle src={settings} className='w-25 mt-3' />
+                                <p className='m-auto mt-4 fw-bold fs-5 text-center'>Integración de</p>
+                                <p className='m-auto fw-bold fs-5 text-center'> APIs</p>
+                            </div>
+                            <div className='box-service col-md-3 p-2' >
+                                <Image roundedCircle src={design} className='w-25 mt-3' />
+                                <p className='m-auto mt-4 fw-bold fs-5 text-center'>Diseño</p>
+                            </div>
+
+                            <div className='box-service col-md-3 p-2'>
+                                <Image roundedCircle src={marketing} className='w-25 mt-3' />
+                                <p className='m-auto mt-4 fw-bold fs-5 text-center'>Publicidad</p>
+                            </div>
+
                         </div>
 
-                        <div className='box-service'>
-                            <Image roundedCircle src={settings} className='w-25 mt-3 img-fluid' />
-                            <p className='m-auto mt-4 fw-bold fs-5 text-center'>Integración de</p>
-                            <p className='m-auto fw-bold fs-5 text-center'> APIs</p>
-                        </div>
-                    </div>
-
-                    <div className='d-flex justify-content-between'>
-                        <div className='box-service' >
-                            <Image roundedCircle src={design} className='w-25 mt-3 img-fluid' />
-                            <p className='m-auto mt-4 fw-bold fs-5 text-center'>Diseño</p>
-                        </div>
-
-                        <div className='box-service'>
-                            <Image roundedCircle src={marketing} className='w-25 mt-3 img-fluid' />
-                            <p className='m-auto mt-4 fw-bold fs-5 text-center'>Publicidad</p>
-                        </div>
                     </div>
                 </div>
             </Container>

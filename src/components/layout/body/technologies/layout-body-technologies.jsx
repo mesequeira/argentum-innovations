@@ -18,9 +18,9 @@ const Technologies = () => {
     return (
         <section id='technologies'>
             <div className='container d-grid mt-5'>
-                <p className='m-auto technologies mb-3'>Tecnologías con las que trabajamos</p>
-                <p className='m-auto technologies-title'>Seguimos las tendencias</p>
-                <p className='m-auto technologies-title'>del mercado</p>
+                <p className='m-auto technologies mb-3 text-center'>Tecnologías con las que trabajamos</p>
+                <p className='m-auto technologies-title text-center'>Seguimos las tendencias</p>
+                <p className='m-auto technologies-title text-center'>del mercado</p>
                 <div className='row justify-content-center align-items-center'>
                     <div className='col-lg-3 col-md-3 col-sm-4 col-6'>
                         <div className='mx-auto mb-15 mw-270 h-120 d-flex justify-content-center align-items-center radius10 block'>
